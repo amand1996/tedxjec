@@ -18,4 +18,7 @@ router.get('/elements', function(req, res) {
   res.render('elements');
 });
 
+router.get('/pavitrashetty', function(req, res) {
+  res.render('pavitrashetty');
+});
 module.exports = router;
