@@ -21,4 +21,7 @@ router.get('/elements', function(req, res) {
 router.get('/pavitrashetty', function(req, res) {
   res.render('pavitrashetty');
 });
+router.get('/arvindpassey', function(req, res) {
+  res.render('arvindpassey');
+});
 module.exports = router;
